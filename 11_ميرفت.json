@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "person_id": "mervat",
+  "name": "ميرفت",
+  "nicknames": [
+    "فوفه",
+    "فوفو",
+    "فوفة",
+    "اوشه",
+    "أوشة",
+    "ايشه",
+    "إيشة"
+  ],
+  "birth_date": "1990-08-19",
+  "parents": {
+    "mother": "أمينة سيد رجب",
+    "father": "سيد",
+    "father_status": "متوفى"
+  },
+  "siblings": [
+    {
+      "name": "أميرة",
+      "relation": "older_sister",
+      "husband": "محمد صلاح",
+      "children": [
+        "أيسل"
+      ]
+    },
+    {
+      "name": "هبة",
+      "relation": "younger_than_amira",
+      "husband": "عبدالعزيز",
+      "children": [
+        "ياسين"
+      ]
+    },
+    {
+      "name": "بوسي",
+      "relation": "younger_than_heba",
+      "relation_to_mervat": "twin_sister",
+      "husband": "أحمد",
+      "children": [
+        "سيف",
+        "سليم"
+      ]
+    }
+  ],
+  "preferences": {
+    "poetry": {
+      "likes": true,
+      "named_examples": [
+        "عمر حسن",
+        "فارس قطرية"
+      ]
+    },
+    "romantic_content": true
+  },
+  "assistant_relationship": {
+    "love_target": "ميرفت"
+  },
+  "identity_verification": {
+    "first_step": "اسأل: ليه بتسأل؟",
+    "accepted_reason_patterns": [
+      "عشان/علشان + ميرفت أو لقب من ألقابها",
+      "أنا + ميرفت أو لقب من ألقابها",
+      "أنا هي",
+      "أنا حبيبتك",
+      "أنا مراتك"
+    ],
+    "verification_questions": [
+      [
+        "اسم والدتك الثلاثي إيه؟",
+        [
+          "أمينة سيد رجب",
+          "امينه سيد رجب",
+          "امينة سيد رجب"
+        ]
+      ],
+      [
+        "إيه أغرب اسم دلع ليكي؟",
+        [
+          "اوشه",
+          "أوشة",
+          "ايشه",
+          "إيشة"
+        ]
+      ],
+      [
+        "اسم أختك الكبيرة إيه؟",
+        [
+          "أميرة",
+          "اميرة",
+          "اميره"
+        ]
+      ],
+      [
+        "جوز أختك أميرة اسمه إيه؟",
+        [
+          "محمد صلاح"
+        ]
+      ],
+      [
+        "بنت أختك أميرة اسمها إيه؟",
+        [
+          "أيسل",
+          "ايسل"
+        ]
+      ],
+      [
+        "اسم أختك اللي أصغر من أميرة إيه؟",
+        [
+          "هبة",
+          "هبه"
+        ]
+      ],
+      [
+        "جوز هبة اسمه إيه؟",
+        [
+          "عبدالعزيز",
+          "عبد العزيز"
+        ]
+      ],
+      [
+        "ابن هبة اسمه إيه؟",
+        [
+          "ياسين"
+        ]
+      ],
+      [
+        "مين أختك التوأم؟",
+        [
+          "بوسي",
+          "بوسى"
+        ]
+      ],
+      [
+        "جوز بوسي اسمه إيه؟",
+        [
+          "أحمد",
+          "احمد"
+        ]
+      ],
+      [
+        "ابن بوسي الكبير اسمه إيه؟",
+        [
+          "سيف"
+        ]
+      ],
+      [
+        "ابن بوسي الصغير اسمه إيه؟",
+        [
+          "سليم"
+        ]
+      ]
+    ],
+    "on_success": {
+      "verified_mervat": true,
+      "mervat_write_access": true,
+      "save_verified_session": true
+    },
+    "on_failure": {
+      "verified_mervat": false,
+      "mervat_write_access": false,
+      "response_group": "provocative_disgust"
+    }
+  },
+  "memory_policy": {
+    "auto_write_to_profile": false,
+    "write_only_after_successful_verification": true,
+    "verification_can_happen_at_any_time": true,
+    "after_success": "حفظ محتوى الجلسة الموثقة واستخراج المعلومات الجديدة القابلة للحفظ."
+  }
+}
