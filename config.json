@@ -1,0 +1,71 @@
+{
+  "name": "Faylasoof AI Database",
+  "version": "1.0.0",
+  "baseUrl": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/",
+  "fastPath": {
+    "enabled": true,
+    "file": "Faylasoof-Greetings.json",
+    "networkRequest": false
+  },
+  "databases": [
+    {
+      "file": "01_فهم_الانسان_والحوار_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/01_فهم_الانسان_والحوار_100k.json",
+      "priority": 1
+    },
+    {
+      "file": "02_اللهجة_والكتابة_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/02_اللهجة_والكتابة_100k.json",
+      "priority": 2
+    },
+    {
+      "file": "03_التفاعل_اليومي_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/03_التفاعل_اليومي_100k.json",
+      "priority": 3
+    },
+    {
+      "file": "04_السياق_والحوار_المتقدم_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/04_السياق_والحوار_المتقدم_100k.json",
+      "priority": 4
+    },
+    {
+      "file": "05_الاسئلة_والاجابات_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/05_الاسئلة_والاجابات_100k.json",
+      "priority": 5
+    },
+    {
+      "file": "06_المشاعر_والنبرة_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/06_المشاعر_والنبرة_100k.json",
+      "priority": 6
+    },
+    {
+      "file": "07_المواقف_الاجتماعية_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/07_المواقف_الاجتماعية_100k.json",
+      "priority": 7
+    },
+    {
+      "file": "08_السياق_والذاكرة_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/08_السياق_والذاكرة_100k.json",
+      "priority": 8
+    },
+    {
+      "file": "09_التعلم_والشرح_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/09_التعلم_والشرح_100k.json",
+      "priority": 9
+    },
+    {
+      "file": "10_التنوع_اللغوي_والصياغة_100k.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/10_التنوع_اللغوي_والصياغة_100k.json",
+      "priority": 10
+    },
+    {
+      "file": "11_ميرفت.json",
+      "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/11_ميرفت.json",
+      "priority": 11
+    }
+  ],
+  "index": {
+    "file": "فهرس_قواعد_المساعد_11_ملف.json",
+    "url": "https://raw.githubusercontent.com/erfanex/Faylasoof-AI-Database/main/فهرس_قواعد_المساعد_11_ملف.json"
+  }
+}
